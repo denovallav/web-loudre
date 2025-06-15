@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register- LOUDRÉ</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white rounded-lg shadow-md p-8 w-full max-w-md relative">
+    <!-- Back Button -->
+    <a href="index.html" class="absolute top-4 left-4 text-gray-600 hover:text-gray-800 transition duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      </svg>
+      <span class="sr-only">Kembali</span>
+    </a>
+    
+    <!-- Header -->
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-bold text-gray-800 mb-2">Register</h1>
+      <p class="text-gray-600">Buat akun anda</p>
+    </div>
+
+    <!-- Form -->
+    <form class="space-y-6">
+      <!-- Email Field -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Nama anda </label>
+        <input 
+          type="email" 
+          id="email" 
+          class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+          placeholder="masukan nama anda"
+          required
+        >
+      </div>
+
+      <!-- Password Field -->
+      <div>
+        <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+          placeholder="••••••••"
+          required
+        >
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">masukan nomer anda </label>
+        <input 
+          type="email" 
+          id="email" 
+          class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+          placeholder="+62"
+          required
+        >
+      </div>
+
+      <!-- Login Button -->
+      <button
+        type="submit"
+        class="w-full bg-black text-white py-3 px-4 rounded-md hover:bg-gray-800 transition duration-300 font-medium"
+      >
+        Daftar
+      </button>
+    </form>
+  </div>
+</body>
+</html>
